@@ -15,7 +15,7 @@ const nextConfig = {
 };
 
 module.exports = withSentryConfig(nextConfig, {
-  org: "nixlab-technologies",
+  org: "pravin-ty",
   project: "portfolio-nextjs",
   authToken: process.env.SENTRY_AUTH_TOKEN,
   silent: false,
