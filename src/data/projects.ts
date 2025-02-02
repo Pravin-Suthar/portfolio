@@ -14,6 +14,18 @@ const projects: IProjectItem[] = [
     tags: ["Flutter", "Dart", "GetX", "Authentication"],
   },
   {
+    id: "AI-Powered Job Prep Site",
+    title: "</> job-prep>",
+    description:
+      "One stop solution to prepare for the interviews create cover letter/resumes.",
+    icon: "/skills/nextjs.png",
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: "https://github.com/Pravin-Suthar/job-prep",
+    url: "https://github.com/Pravin-Suthar/job-prep/releases",
+    tags: ["Next.js, Neon DB, Tailwind, Prisma, Inngest, Shadcn UI"],
+  },
+  {
     id: "portfolio",
     title: "Portfolio Website",
     description:
