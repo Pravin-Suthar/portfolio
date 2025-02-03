@@ -4,9 +4,10 @@ class Strings {
   static telegramUsername = "Pravin Suthar";
 
   static github = "GitHub";
-  static githubLink = "https://github.com/Pravin-Suthar";
+  static githubLink = "https://github.com/Pravin-Suthar/Pravin-Suthar";
   static githubUsername = "Pravin Suthar";
 
+  
   static linkedIn = "LinkedIn";
   static linkedInLink = "https://www.linkedin.com/in/pravinsuthar";
   static linkedInUsername = "Pravin Suthar";

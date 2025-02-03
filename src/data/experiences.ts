@@ -10,13 +10,15 @@ const experiences: IExperienceItem[] = [
     isCurrentJob: true,
     location: "Hyderabad, India",
     description: [
-      "Led the complete developement of the Asset Vault across Andriod, iOS & Web housing over 17 asset types and 30+ subtypes, with backend RESTAPI and their Integration in frontend while using effective state management for enhanced UX.",
-      "Implemented an efficient hotfix process for production bug fixes, expediting their deployment to regions while ensuring swift movement across regions without unnecessary commits or tickets.",
-      "Engineered efficient data analytics solutions using Azure Data Factory and Databricks, optimizing costs and ensuring secure data flow across regional subscriptions",
-      "Continuously monitored Azure Application Insights via the Azure portal for service issues while conducting ongoing infrastructure monitoring and cost analysis to optimize resources.",
-      "Actively contributed to bug fixes and process enhancements, accelerating familiarity with the codebase.",
-      "Facilitating architectural design reviews, leveraging NodeJS, ReactJS, and Azure technologies to deliver scalable solutions aligned with Mitt Arv's strategic goals."
-   ],
+      "Spearheaded the migration of analytics workflows to Azure Data Factory and Databricks, enhancing data retrieval efficiency by 50%, which improved overall reporting precision for the analytics team.",
+      "Implemented CI/CD pipelines to streamline the deployment of Azure Data Factory artifacts across multiple regions, reducing deployment time by 90% and accelerating release cycles while minimizing manual intervention.",
+      "Enhanced app performance by introducing local caching with Hive, boosting user engagement by 30% through faster access to frequently used data.",
+      "Architected the Asset Vault Tool utilizing Node.js and Sequelize, introducing a two-level approval workflow that fortified security and streamlined internal tool operations.",
+      "Streamlined asset form management, reducing manual efforts by 40% and significantly cutting down time-to-market for new forms.",
+      "Resolved state management challenges in React.js by leveraging Redux, improving user experience and increasing retention",
+      "Implemented AES encryption standards to ensure secure data transmission between frontend and backend, aligning with ISO-27001 compliance.",
+      "Integrated SendGrid API in collaboration with the MoEngage team to optimize email delivery speed and reliability.",
+    ]
   },
   {
     designation: "Software Development Intern",
@@ -28,12 +30,14 @@ const experiences: IExperienceItem[] = [
     isCurrentJob: false,
     location: "Hyderabad, India",
     description: [
-       "Led the complete developement of the Asset Vault across Andriod, iOS & Web housing over 17 asset types and 30+ subtypes, with backend RESTAPI and their Integration in frontend while using effective state management for enhanced UX.",
-       "Implemented an efficient hotfix process for production bug fixes, expediting their deployment to regions while ensuring swift movement across regions without unnecessary commits or tickets.",
-       "Engineered efficient data analytics solutions using Azure Data Factory and Databricks, optimizing costs and ensuring secure data flow across regional subscriptions",
-       "Continuously monitored Azure Application Insights via the Azure portal for service issues while conducting ongoing infrastructure monitoring and cost analysis to optimize resources.",
-       "Actively contributed to bug fixes and process enhancements, accelerating familiarity with the codebase.",
-       "Facilitating architectural design reviews, leveraging NodeJS, ReactJS, and Azure technologies to deliver scalable solutions aligned with Mitt Arv's strategic goals."
+      "Contributed as a Founding Engineer in the development of an early-stage application, playing a key role in shaping its architecture and features.",
+      "Implemented RESTful APIs in Node.js with comprehensive error handling and MySQL transactions, resulting in a 30% reduction in data-related issues and improving system reliability.",
+      "Led debugging efforts by aligning technical fixes with business requirements, enhancing system stability.",
+      "Led backend integration and state management for the Asset Vault tool in Flutter, using Bloc for centralized state management, which contributed to a more scalable architecture",
+      "Integrated Firebase Analytics across all user-facing apps, enabling the product team to gather actionable insights on user behavior",
+      "Implemented a Feature Flags system that cut rollout time for new features by 20%, allowing controlled access to features for better product testing.",
+      "Secured Azure Blob storage by introducing Shared Access Token (SAS) token authentication, ensuring privacy and data integrity.",
+      "Established a Backend Migration process to enforce consistent model and production-level changes, ensuring smoother deployments with migration files."
     ],
   },
   {

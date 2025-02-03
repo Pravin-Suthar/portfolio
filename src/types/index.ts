@@ -47,6 +47,7 @@ export interface IProjectItem {
   repoType: RepoType;
   projectType?: ProjectType;
   githubUrl?: string;
+  liveLink?: string;
   url?: string;
   tags?: string[];
   screenshots?: string[];

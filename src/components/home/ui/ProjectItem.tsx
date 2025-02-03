@@ -4,7 +4,7 @@ import { RepoType, type IProjectItem } from "@/types";
 import { Balancer } from "react-wrap-balancer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEye } from "@fortawesome/free-solid-svg-icons";
+import { faEye, faGlobe, faGlobeAsia } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import Link from "next/link";
 import Column from "@/components/core/Column";
@@ -67,6 +67,20 @@ const ProjectItem = ({ project }: { project: IProjectItem }) => {
             >
               <FontAwesomeIcon
                 icon={faEye}
+                className="text-base/6 text-[var(--textColor)]"
+              />
+            </Link>
+          ) : null}
+
+          {project.liveLink ? (
+            <Link
+              href={project.liveLink}
+              aria-label={`${project.title} Project URL`}
+              target="_blank"
+              className="app__outlined_btn !rounded-full !p-2 lg:!p-3 !aspect-square !border-[var(--textColor)]"
+            >
+              <FontAwesomeIcon
+                icon={faGlobeAsia}
                 className="text-base/6 text-[var(--textColor)]"
               />
             </Link>

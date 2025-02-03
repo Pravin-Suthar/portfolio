@@ -33,6 +33,7 @@ const projects: IProjectItem[] = [
     icon: "/skills/nextjs.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
+    liveLink: "https://job-prep-liart.vercel.app/",
     githubUrl: "https://github.com/Pravin-Suthar/portfolio",
     url: "https://github.com/Pravin-Suthar/portfolio",
     tags: ["Next.js", "Sass", "Web Development"],
